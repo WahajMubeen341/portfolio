@@ -39,14 +39,14 @@ const About = () => {
               <div className="about-wrapper__info">
                 <p className="about-wrapper__info-text">
                   {paragraphOne ||
-                    'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
+                    'I am a Software Engineer. I just graduated from Comsats University, Islamabad. Enthusiastic developer eager to lead and contribute through hard work, attention to detail and excellent organization skills.'}
                 </p>
                 <p className="about-wrapper__info-text">
                   {paragraphTwo ||
-                    'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
+                    'I have a good hands on experience in developing react projects. I am always motivated to learn and understand new things and adopt to new environments and new teams.As a student of engineering and a programmer, I am a good problem solver.'}
                 </p>
                 <p className="about-wrapper__info-text">
-                  {paragraphThree || 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.'}
+                  {paragraphThree || 'Recently I worked as a React Developer Intern at MWAN Mobile where I got to work on their project. At MWAN, I learned to work in professional environment, collaborating with different teams and time management.'}
                 </p>
                 {resume && (
                   <span className="d-flex mt-3">
@@ -55,7 +55,7 @@ const About = () => {
                       rel="noopener noreferrer"
                       className="cta-btn cta-btn--resume"
                       href={resume}
-                    >
+                      download="true">
                       Resume
                     </a>
                   </span>
